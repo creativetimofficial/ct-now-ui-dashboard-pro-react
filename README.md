@@ -213,4 +213,4 @@ Instagram: <https://instagram.com/creativetimofficial>
 [CHANGELOG]: ./CHANGELOG.md
 
 [LICENSE]: ./LICENSE.md
-[version-badge]: https://img.shields.io/badge/version-1.0.1-blue.svg
+[version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
