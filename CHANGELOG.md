@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.1] 2018-05-22
+### Bug fixing
+- Changed links for the live preview and changed links from `http` to `https`
+
 ## [1.1.0] 2018-04-13
 ### Bug fixing
 - Small changes in scss so latest version of `node-sass` and `node-sass-chokidar` can be used
