@@ -1,5 +1,50 @@
 # Change Log
 
+## [1.2.0] 2018-08-28
+### Bug fixing
+- Added new script command for clean install of node_modules (just run in terminal `npm run install:clean`, this will also start your server)
+- Added lint commands
+- Run prettier in our code to make it a bit more readable
+- Github issues
+  - `https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/1`
+  - `https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/2`
+  - `https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/7`
+  - `https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/8`
+  - `https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/10`
+  - `https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/14`
+  - `https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/15`
+### Deleted dependencies
+- `react-nouislider v2.0.1` - it was deprected
+### Added dependencies
+- `nouislider v11.1.0` - to replace the `react-nouislider`
+- Added the following dependencies to stop warnings on `npm install`
+  - `@types/googlemaps v3.30.11`
+  - `@types/markerclustererplus v2.1.33`
+  - `@types/react v16.4.11`
+  - `ajv v5.0.0`
+### Updated dependencies
+- `bootstrap v4.0.0-beta` to `bootstrap v4.1.3`
+- `chart.js v2.7.1` to `chart.js v2.7.2`
+- `moment v2.19.2` to `moment v2.22.2`
+- `node-sass-chokidar v1.2.2` to `node-sass-chokidar v1.3.3`
+- `npm-run-all v4.1.2` to `npm-run-all v4.1.3`
+- `perfect-scrollbar v1.3.0` to `perfect-scrollbar v1.4.0`
+- `react v16.2.0` to `react v16.4.2`
+- `react-big-calendar v0.17.0` to `react-big-calendar v0.19.2`
+- `react-bootstrap-sweetalert v4.1.0` to `react-bootstrap-sweetalert v4.4.1`
+- `react-bootstrap-wizard v0.0.4` to `react-bootstrap-wizard v0.0.5`
+- `react-chartjs-2 v2.7.0` to `react-chartjs-2 v2.7.4`
+- `react-datetime v2.11.0` to `react-datetime v2.15.0`
+- `react-dom v16.2.0` to `react-dom v16.4.2`
+- `react-google-maps v9.2.2` to `react-google-maps v9.4.5`
+- `react-jvectormap v0.0.2` to `react-jvectormap v0.0.3`
+- `react-notification-alert v0.0.7` to `react-notification-alert v0.0.8`
+- `react-router-dom v4.2.2` to `react-router-dom v4.3.1`
+- `react-scripts v1.0.17` to `react-scripts v1.1.4`
+- `react-select v1.0.0-rc.10` to `react-select v2.0.0`
+- `react-table v6.8.0` to `react-table v6.8.6`
+- `reactstrap v5.0.0-alpha.4` to `reactstrap v6.4.0`
+
 ## [1.1.1] 2018-05-22
 ### Bug fixing
 - Changed links for the live preview and changed links from `http` to `https`
