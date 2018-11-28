@@ -1,4 +1,4 @@
-# [Material Dashboard PRO React](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnud-pro-react.creative-tim.com&text=Light%20Bootstrap%20Dashboard%20React%20-%20Free%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fnow-ui-dashboard-pro-react%2F&via=creativetim&hashtags=react%2Cbootstrap)
+# [Now UI Dashboard PRO React](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnud-pro-react.creative-tim.com&text=Light%20Bootstrap%20Dashboard%20React%20-%20Free%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fnow-ui-dashboard-pro-react%2F&via=creativetim&hashtags=react%2Cbootstrap)
 
 
 
