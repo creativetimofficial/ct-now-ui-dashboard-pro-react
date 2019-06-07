@@ -2,7 +2,7 @@
 
 
 
-![version](https://img.shields.io/badge/version-1.2.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed)  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.3.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed)  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](./now-ui-dashboard-pro-react.gif)
 
@@ -32,11 +32,12 @@ It comes with 5 filter colors for the sidebar (`yellow`, `blue`,`green`,`orange`
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/now-ui-dashboard-pro)
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/now-ui-dashboard-pro-react)
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/now-ui-dashboard-pro-angular)
 
 
-| HTML | React | Vue |
-| --- | --- | --- |
-| [![Now UI Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/72/thumb/opt_nudp_thumbnail.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro) | [![Now UI Dashboard Pro React](https://s3.amazonaws.com/creativetim_bucket/products/73/thumb/opt_nudp_react_thumbnail.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-react)  | [![Vue Now UI Dashboard Pro](https://s3.amazonaws.com/creativetim_bucket/products/79/thumb/opt_nudp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro)
+| HTML | React | Vue | Angular |
+| --- | --- | --- | --- |
+| [![Now UI Dashboard Pro HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro/now-ui-dashboard-pro.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro) | [![Now UI Dashboard Pro React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro-react/now-ui-dashboard-pro-react.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-react)  | [![Vue Now UI Dashboard Pro](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-pro/vue-now-ui-dashboard-pro.jpg)](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro)  | [![Now UI Dashboard Pro Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro-angular/now-ui-dashboard-pro-angular.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-angular)
 
 ## Demo
 
@@ -67,131 +68,103 @@ Within the download you'll find the following directories and files:
 ```
 now-ui-dashboad-pro-react
 │
-├── Documentation
-│   └── tutorial-components.html
+├── CHANGELOG.md
+├── ISSUE_TEMPLATE.md
+├── README.md
+├── jsconfig.json
 ├── package.json
+├── now-ui-dashboard-pro-react.gif
+├── Documentation
+│   └── tutorial-components.html
 ├── public
-│   ├── index.html
-│   └── manifest.json
+│   ├── index.html
+│   └── manifest.json
 └── src
     ├── index.js
-    ├── assets
-    │   ├── css
-    │   ├── fonts
-    │   ├── img
-    │   │   ├── flags
-    │   │   ├── img
-    │   │   │   ├── examples
-    │   │   │   ├── flags
-    │   │   │   ├── nucleo-logo.svg
-    │   │   │   └── presentation-page
-    │   │   │       └── Pages
-    │   │   └── nucleo-logo.svg
-    │   └── scss
-    │       ├── now-ui-dashboard
-    │       │   ├── mixins
-    │       │   └── plugins
-    │       └── now-ui-dashboard.css
-    ├── components
-    │   ├── Accordion
-    │   │   └── Accordion.jsx
-    │   ├── CardElements
-    │   │   ├── CardAuthor.jsx
-    │   │   ├── CardCategory.jsx
-    │   │   ├── CardDescription.jsx
-    │   │   ├── CardIcon.jsx
-    │   │   ├── CardSocial.jsx
-    │   │   ├── CardSocials.jsx
-    │   │   └── CardStats.jsx
-    │   ├── CustomButton
-    │   │   └── CustomButton.jsx
-    │   ├── CustomCheckbox
-    │   │   ├── IconCheckbox.jsx
-    │   │   └── SimpleCheckbox.jsx
-    │   ├── CustomProgress
-    │   │   └── CustomProgress.jsx
-    │   ├── CustomRadio
-    │   │   └── CustomRadio.jsx
-    │   ├── CustomUpload
-    │   │   ├── ImageUpload.jsx
-    │   │   └── PictureUpload.jsx
-    │   ├── Footer
-    │   │   └── Footer.jsx
-    │   ├── FormInputs
-    │   │   └── FormInputs.jsx
-    │   ├── Header
-    │   │   ├── Header.jsx
-    │   │   └── PagesHeader.jsx
-    │   ├── InfoArea
-    │   │   └── InfoArea.jsx
-    │   ├── Instructions
-    │   │   └── Instructions.jsx
-    │   ├── PanelHeader
-    │   │   └── PanelHeader.jsx
-    │   ├── Sidebar
-    │   │   └── Sidebar.jsx
-    │   ├── Statistics
-    │   │   └── Statistics.jsx
-    │   ├── Stats
-    │   │   └── Stats.jsx
-    │   ├── Tasks
-    │   │   └── Tasks.jsx
-    │   ├── Timeline
-    │   │   └── Timeline.jsx
-    │   └── index.js
-    ├── layouts
-    │   ├── Dashboard
-    │   │   └── Dashboard.jsx
-    │   └── Pages
-    │       └── Pages.jsx
+    ├── logo-white.svg
     ├── logo.svg
-    ├── routes
-    │   ├── dashboad.jsx
-    │   ├── index.jsx
-    │   └── pages.jsx
+    ├── routes.js
+    ├── layouts
+    │   ├── Admin.jsx
+    │   └── Auth.jsx
     ├── variables
-    │   ├── charts.jsx
-    │   ├── general.jsx
-    │   └── icons.jsx
+    │   ├── charts.jsx
+    │   ├── general.jsx
+    │   └── icons.jsx
+    ├── assets
+    │   ├── css
+    │   │   ├── demo.css
+    │   │   ├── now-ui-dashboard.css
+    │   │   ├── now-ui-dashboard.css.map
+    │   │   └── now-ui-dashboard.min.css
+    │   ├── fonts
+    │   ├── img
+    │   │   ├── flags
+    │   └── scss
+    │       ├── now-ui-dashboard
+    │       │   ├── cards
+    │       │   ├── mixins
+    │       │   ├── plugins
+    │       │   └── react
+    │       │       ├── custom
+    │       │       ├── plugins
+    │       │       └── react-differences.scss
+    │       └── now-ui-dashboard.scss
+    ├── components
+    │   ├── CustomUpload
+    │   │   ├── ImageUpload.jsx
+    │   │   └── PictureUpload.jsx
+    │   ├── FixedPlugin
+    │   │   └── FixedPlugin.jsx
+    │   ├── Footer
+    │   │   └── Footer.jsx
+    │   ├── Navbars
+    │   │   ├── AdminNavbar.jsx
+    │   │   └── AuthNavbar.jsx
+    │   ├── PanelHeader
+    │   │   └── PanelHeader.jsx
+    │   └── Sidebar
+    │       └── Sidebar.jsx
     └── views
         ├── Calendar
-        │   └── Calendar.jsx
+        │   └── Calendar.jsx
         ├── Charts
-        │   └── Charts.jsx
+        │   └── Charts.jsx
         ├── Components
-        │   ├── Buttons.jsx
-        │   ├── GridSystem.jsx
-        │   ├── Icons.jsx
-        │   ├── Notifications.jsx
-        │   ├── Panels.jsx
-        │   ├── SweetAlertPage.jsx
-        │   └── Typography.jsx
+        │   ├── Buttons.jsx
+        │   ├── GridSystem.jsx
+        │   ├── Icons.jsx
+        │   ├── Notifications.jsx
+        │   ├── Panels.jsx
+        │   ├── SweetAlertPage.jsx
+        │   └── Typography.jsx
         ├── Dashboard
-        │   └── Dashboard.jsx
+        │   └── Dashboard.jsx
         ├── Forms
-        │   ├── ExtendedForms.jsx
-        │   ├── RegularForms.jsx
-        │   ├── ValidationForms.jsx
-        │   └── Wizard
-        │       ├── Step1.jsx
-        │       ├── Step2.jsx
-        │       ├── Step3.jsx
-        │       └── Wizard.jsx
+        │   ├── ExtendedForms.jsx
+        │   ├── RegularForms.jsx
+        │   ├── ValidationForms.jsx
+        │   └── Wizard
+        │       ├── Step1.jsx
+        │       ├── Step2.jsx
+        │       ├── Step3.jsx
+        │       └── Wizard.jsx
         ├── Maps
-        │   ├── FullScreenMap.jsx
-        │   ├── GoogleMaps.jsx
-        │   └── VectorMap.jsx
+        │   ├── FullScreenMap.jsx
+        │   ├── GoogleMaps.jsx
+        │   └── VectorMap.jsx
         ├── Pages
-        │   ├── LockScreenPage.jsx
-        │   ├── LoginPage.jsx
-        │   ├── PricingPage.jsx
-        │   ├── RegisterPage.jsx
-        │   ├── TimelinePage.jsx
-        │   └── UserPage.jsx
+        │   ├── LockScreenPage.jsx
+        │   ├── LoginPage.jsx
+        │   ├── PricingPage.jsx
+        │   ├── RTL.jsx
+        │   ├── RegisterPage.jsx
+        │   ├── TimelinePage.jsx
+        │   └── UserPage.jsx
         ├── Tables
-        │   ├── DataTables.jsx
-        │   ├── ExtendedTables.jsx
-        │   └── RegularTables.jsx
+        │   ├── ExtendedTables.jsx
+        │   ├── ReactTable.jsx
+        │   └── RegularTables.jsx
         └── Widgets
             └── Widgets.jsx
 ```
@@ -230,7 +203,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Useful Links
 
- - [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 

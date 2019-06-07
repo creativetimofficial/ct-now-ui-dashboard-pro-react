@@ -1,5 +1,75 @@
 # Change Log
 
+## [1.3.0] 2019-06-07
+### Bug fixing
+- Rewrote our buggy routing system (no more `src/routes/*` - three files, now there is only one file src/routes.js)
+- Renamed `src/layouts/Dashboard/Dashboard.jsx` to `src/layouts/Admin.jsx`
+- Renamed `src/layouts/Pages/Pages.jsx` to `src/layouts/Auth.jsx`
+- Renamed `src/components/Header/Header.jsx` to `src/components/Navbars/AdminNavbar.jsx`
+- Renamed `src/components/Header/PagesHeader.jsx` to `src/components/Navbars/AuthNavbar.jsx`
+### Added components
+- `jsconfig.json`
+- `classnames@2.2.6`
+- `src/components/FixedPlugin/FixedPlugin.jsx`
+### Removed components
+- `.env`
+- `.eslintignore`
+- `.eslintrc.js`
+- `src/components/index.js`
+- `src/components/Accordion/Accordion.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CardElements/CardAuthor.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CardElements/CardCategory.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CardElements/CardDescription.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CardElements/CardIcon.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CardElements/CardSocial.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CardElements/CardSocials.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CardElements/CardStats.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CustomButton/CustomButton.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CustomCheckbox/IconCheckbox.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CustomCheckbox/SimpleCheckbox.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CustomProgress/CustomProgress.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CustomRadio/CustomRadio.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/FormInputs/FormInputs.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/InfoArea/InfoArea.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/Instructions/Instructions.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/Statistics/Statistics.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/Stats/Stats.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/Tasks/Tasks.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/Timeline/Timeline.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+### Removed dependencies
+- "babel-eslint": "^7.2.3",
+- "eslint": "^4.19.1",
+- "eslint-config-prettier": "^2.9.0",
+- "eslint-plugin-prettier": "^2.6.2",
+- "eslint-plugin-react": "^7.10.0",
+- "prettier": "^1.13.7"
+### Added dependencies
+### Updated dependencies
+```
+bootstrap                    4.1.3   →     4.3.1
+chart.js                     2.7.2   →     2.8.0
+moment                      2.22.2   →    2.24.0
+node-sass-chokidar           1.3.3   →     1.3.5
+nouislider                  11.1.0   →    13.1.5
+npm-run-all                  4.1.3   →     4.1.5
+react                       16.4.2   →    16.8.6
+react-big-calendar          0.19.2   →    0.21.0
+react-bootstrap-wizard       0.0.5   →     0.0.7
+react-chartjs-2              2.7.4   →     2.7.6
+react-datetime              2.15.0   →    2.16.3
+react-dom                   16.4.2   →    16.8.6
+react-jvectormap             0.0.3   →    0.0.12
+react-notification-alert     0.0.8   →    0.0.12
+react-router-dom             4.3.1   →     5.0.0
+react-scripts                1.1.4   →     3.0.1
+react-select                 2.0.0   →     3.0.4
+react-table                  6.8.6   →    6.10.0
+reactstrap                   6.4.0   →     8.0.0
+@types/googlemaps          3.30.11   →    3.36.2
+@types/react               16.4.11   →   16.8.19
+ajv                          5.0.0   →    6.10.0
+```
+
 ## [1.2.0] 2018-08-28
 ### Bug fixing
 - Added new script command for clean install of node_modules (just run in terminal `npm run install:clean`, this will also start your server)
