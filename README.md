@@ -1,8 +1,8 @@
-# [Now UI Dashboard PRO React](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnud-pro-react.creative-tim.com&text=Light%20Bootstrap%20Dashboard%20React%20-%20Free%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fnow-ui-dashboard-pro-react%2F&via=creativetim&hashtags=react%2Cbootstrap)
+# [Material Dashboard PRO React](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnud-pro-react.creative-tim.com&text=Light%20Bootstrap%20Dashboard%20React%20-%20Free%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fnow-ui-dashboard-pro-react%2F&via=creativetim&hashtags=react%2Cbootstrap)
 
 
 
-![version](https://img.shields.io/badge/version-1.3.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed)  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.4.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed)  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](./now-ui-dashboard-pro-react.gif)
 
@@ -85,12 +85,12 @@ now-ui-dashboad-pro-react
     ├── logo.svg
     ├── routes.js
     ├── layouts
-    │   ├── Admin.jsx
-    │   └── Auth.jsx
+    │   ├── Admin.js
+    │   └── Auth.js
     ├── variables
-    │   ├── charts.jsx
-    │   ├── general.jsx
-    │   └── icons.jsx
+    │   ├── charts.js
+    │   ├── general.js
+    │   └── icons.js
     ├── assets
     │   ├── css
     │   │   ├── demo.css
@@ -112,61 +112,61 @@ now-ui-dashboad-pro-react
     │       └── now-ui-dashboard.scss
     ├── components
     │   ├── CustomUpload
-    │   │   ├── ImageUpload.jsx
-    │   │   └── PictureUpload.jsx
+    │   │   ├── ImageUpload.js
+    │   │   └── PictureUpload.js
     │   ├── FixedPlugin
-    │   │   └── FixedPlugin.jsx
+    │   │   └── FixedPlugin.js
     │   ├── Footer
-    │   │   └── Footer.jsx
+    │   │   └── Footer.js
     │   ├── Navbars
-    │   │   ├── AdminNavbar.jsx
-    │   │   └── AuthNavbar.jsx
+    │   │   ├── AdminNavbar.js
+    │   │   └── AuthNavbar.js
     │   ├── PanelHeader
-    │   │   └── PanelHeader.jsx
+    │   │   └── PanelHeader.js
     │   └── Sidebar
-    │       └── Sidebar.jsx
+    │       └── Sidebar.js
     └── views
         ├── Calendar
-        │   └── Calendar.jsx
+        │   └── Calendar.js
         ├── Charts
-        │   └── Charts.jsx
+        │   └── Charts.js
         ├── Components
-        │   ├── Buttons.jsx
-        │   ├── GridSystem.jsx
-        │   ├── Icons.jsx
-        │   ├── Notifications.jsx
-        │   ├── Panels.jsx
-        │   ├── SweetAlertPage.jsx
-        │   └── Typography.jsx
+        │   ├── Buttons.js
+        │   ├── GridSystem.js
+        │   ├── Icons.js
+        │   ├── Notifications.js
+        │   ├── Panels.js
+        │   ├── SweetAlertPage.js
+        │   └── Typography.js
         ├── Dashboard
-        │   └── Dashboard.jsx
+        │   └── Dashboard.js
         ├── Forms
-        │   ├── ExtendedForms.jsx
-        │   ├── RegularForms.jsx
-        │   ├── ValidationForms.jsx
+        │   ├── ExtendedForms.js
+        │   ├── RegularForms.js
+        │   ├── ValidationForms.js
         │   └── Wizard
-        │       ├── Step1.jsx
-        │       ├── Step2.jsx
-        │       ├── Step3.jsx
-        │       └── Wizard.jsx
+        │       ├── Step1.js
+        │       ├── Step2.js
+        │       ├── Step3.js
+        │       └── Wizard.js
         ├── Maps
-        │   ├── FullScreenMap.jsx
-        │   ├── GoogleMaps.jsx
-        │   └── VectorMap.jsx
+        │   ├── FullScreenMap.js
+        │   ├── GoogleMaps.js
+        │   └── VectorMap.js
         ├── Pages
-        │   ├── LockScreenPage.jsx
-        │   ├── LoginPage.jsx
-        │   ├── PricingPage.jsx
-        │   ├── RTL.jsx
-        │   ├── RegisterPage.jsx
-        │   ├── TimelinePage.jsx
-        │   └── UserPage.jsx
+        │   ├── LockScreenPage.js
+        │   ├── LoginPage.js
+        │   ├── PricingPage.js
+        │   ├── RTL.js
+        │   ├── RegisterPage.js
+        │   ├── TimelinePage.js
+        │   └── UserPage.js
         ├── Tables
-        │   ├── ExtendedTables.jsx
-        │   ├── ReactTable.jsx
-        │   └── RegularTables.jsx
+        │   ├── ExtendedTables.js
+        │   ├── ReactTable.js
+        │   └── RegularTables.js
         └── Widgets
-            └── Widgets.jsx
+            └── Widgets.js
 ```
 
 ## Browser Support
@@ -198,7 +198,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com)
+- Copyright 2020 Creative Tim (https://www.creative-tim.com)
 - Creative Tim [license](https://www.creative-tim.com/license)
 
 ## Useful Links
