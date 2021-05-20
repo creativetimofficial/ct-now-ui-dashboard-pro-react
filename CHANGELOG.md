@@ -1,5 +1,56 @@
 # Change Log
 
+## [1.5.0] 2020-05-20
+### Bug fixing
+- https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/35 (This was not fixed unfortunately, please check the warnings down bellow)
+- https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/34
+### Major style changes
+### Deleted components
+### Added components
+### Deleted dependencies
+- `history` (no longer needed due to the `BrowserRouter`)
+- `react-google-maps` (no longer maintained, so we'll use simple Google Maps API)
+- `@types/googlemaps`
+- `@types/markerclustererplus`
+- `@types/react`
+- `ajv` (was only installed to stop warnings)
+- `npm-run-all` (no longer used)
+### Added dependencies
+- `@babel/core@7.14.3` (to stop warnings on install)
+- `node-sass@6.0.0` (this should have been installed a long time ago)
+### Updated dependencies
+```
+bootstrap                      4.5.0   →    4.6.0
+chart.js                       2.9.3   →    3.2.1
+classnames                     2.2.6   →    2.3.1
+gulp-append-prepend            1.0.8   →    1.0.9
+match-sorter                   4.1.0   →    6.3.0
+moment                        2.26.0   →   2.29.1
+nouislider                    14.5.0   →   15.1.1
+perfect-scrollbar              1.5.0   →    1.5.1
+react                        16.13.1   →   17.0.2
+react-big-calendar            0.25.0   →   0.33.3
+react-bootstrap-sweetalert    5.1.11   →    5.2.0
+react-bootstrap-wizard         0.0.7   →    0.0.9
+react-chartjs-2                2.9.0   →    3.0.3
+react-datetime                2.16.3   →    3.0.4
+react-dom                    16.13.1   →   17.0.2
+react-notification-alert      0.0.12   →   0.0.13
+react-scripts                  3.4.1   →    4.0.3
+react-select                   3.1.0   →    4.3.1
+react-table                    7.2.0   →    7.7.0
+reactstrap                     8.4.1   →    8.9.0
+typescript                     3.9.5   →    4.2.4
+```
+### Warning
+_We will update Bootstrap to v5 when we'll release a new design for the Now UI products._
+_While in development some of the plugins that were used for this product will throw some warnings - note, this only happens in development, the UI or the functionality of the product is not affected, also, if the issues will persist in React 17, we'll drop usage of those plugins, and replace them with other ones._
+```
+npm WARN react-datetime@3.0.4 requires a peer of react@^16.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-tagsinput@3.19.0 requires a peer of react@^16.0.0 || ^15.0.0 || ^0.14.0 but none is installed. You must install peer dependencies yourself.
+```
+_You will also have the following message: found 80 vulnerabilities (1 low, 79 moderate). This comes from react-scripts, and will be fixed in the next version. NOTE: the product works as expected with these vulnerabilities._
+
 ## [1.4.0] 2019-06-15
 ### Bug fixing
 - Run prettier on all files and there might be changes due to this
