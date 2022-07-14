@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.5.1] 2021-07-14
+
+- Update the dependencies
+- Migration to React 18
+- Migration to sass from node-sass
+
 ## [1.5.0] 2020-05-20
 ### Bug fixing
 - https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues/35 (This was not fixed unfortunately, please check the warnings down bellow)
