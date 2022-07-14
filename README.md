@@ -1,8 +1,6 @@
 # [Material Dashboard PRO React](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnud-pro-react.creative-tim.com&text=Light%20Bootstrap%20Dashboard%20React%20-%20Free%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fnow-ui-dashboard-pro-react%2F&via=creativetim&hashtags=react%2Cbootstrap)
 
-
-
-![version](https://img.shields.io/badge/version-1.5.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed)  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.5.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](./now-ui-dashboard-pro-react.gif)
 
@@ -14,18 +12,17 @@ It comes with 5 filter colors for the sidebar (`yellow`, `blue`,`green`,`orange`
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
+- [Versions](#versions)
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+- [Documentation](#documentation)
+- [File Structure](#file-structure)
+- [Browser Support](#browser-support)
+- [Resources](#resources)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Licensing](#licensing)
+- [Useful Links](#useful-links)
 
 ## Versions
 
@@ -34,10 +31,9 @@ It comes with 5 filter colors for the sidebar (`yellow`, `blue`,`green`,`orange`
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro)
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/now-ui-dashboard-pro-angular)
 
-
-| HTML | React | Vue | Angular |
-| --- | --- | --- | --- |
-| [![Now UI Dashboard Pro HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro/now-ui-dashboard-pro.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro) | [![Now UI Dashboard Pro React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro-react/now-ui-dashboard-pro-react.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-react)  | [![Vue Now UI Dashboard Pro](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-pro/vue-now-ui-dashboard-pro.jpg)](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro)  | [![Now UI Dashboard Pro Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro-angular/now-ui-dashboard-pro-angular.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-angular)
+| HTML                                                                                                                                                                                                                | React                                                                                                                                                                                                                                  | Vue                                                                                                                                                                                                                            | Angular                                                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Now UI Dashboard Pro HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro/now-ui-dashboard-pro.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro) | [![Now UI Dashboard Pro React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro-react/now-ui-dashboard-pro-react.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-react) | [![Vue Now UI Dashboard Pro](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-pro/vue-now-ui-dashboard-pro.jpg)](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro) | [![Now UI Dashboard Pro Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/now-ui-dashboard-pro-angular/now-ui-dashboard-pro-angular.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-angular) |
 
 ## Demo
 
@@ -49,17 +45,15 @@ It comes with 5 filter colors for the sidebar (`yellow`, `blue`,`green`,`orange`
 
 [View More](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/dashboard).
 
-
 ## Quick start
 
 Quick start options:
 
 - Buy from [Creative Tim](https://www.creative-tim.com/product/now-ui-dashboard-pro-react)
 
-
 ## Documentation
-The documentation for the Material Dashboard Pro is hosted at our [website](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/documentation/tutorial).
 
+The documentation for the Material Dashboard Pro is hosted at our [website](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/documentation/tutorial).
 
 ## File Structure
 
@@ -175,8 +169,8 @@ At present, we officially aim to support the last two versions of the following 
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-
 ## Resources
+
 - [Live Preview](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/dashboard)
 - Buy Page: https://www.creative-tim.com/product/now-ui-dashboard-pro-react
 - Documentation is [here](https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/documentation/tutorial)
@@ -186,6 +180,7 @@ At present, we officially aim to support the last two versions of the following 
 - Now UI Dashboard React - [demo](https://www.creative-tim.com/product/now-ui-dashboard-react?ref=github-md-pro-react)
 
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the Material Dashboard Pro. Here are some advices for our users that want to report an issue:
 
 1. Make sure that you are using the latest version of the Material Dashboard Pro. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
@@ -198,7 +193,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2021 Creative Tim (https://www.creative-tim.com)
+- Copyright 2022 Creative Tim (https://www.creative-tim.com)
 - Creative Tim [license](https://www.creative-tim.com/license)
 
 ## Useful Links
